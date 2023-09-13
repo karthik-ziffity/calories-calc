@@ -1,0 +1,28 @@
+.food-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .food-table th, .food-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  .food-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .food-table input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .food-table input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
